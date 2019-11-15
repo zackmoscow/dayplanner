@@ -20,7 +20,7 @@ $(document).ready(function() {
         var hourOfDay = $("<p>").html("<br><br>" + i + ":00");
         var taskInput = $("<br><textarea>");
             taskInput.attr("class", i)
-        var saveButton = $("<span class'fas fa-save fa-2x'>");
+        var saveButton = $("<i class='saveLogo far fa-save fa-2x'>");
         rowDiv.append(leftCol);
         rowDiv.append(centerCol);
         rowDiv.append(rightCol);
