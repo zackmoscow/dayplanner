@@ -18,7 +18,7 @@ $(document).ready(function() {
         var rightCol = $("<div class='col-2 saveBtn'>");
             rightCol.attr("id", i)
         var hourOfDay = $("<p>").html("<br><br>" + i + ":00");
-        var taskInput = $("<textarea>");
+        var taskInput = $("<br><textarea>");
             taskInput.attr("class", i)
         var saveButton = $("<span class'fas fa-save fa-2x'>");
         rowDiv.append(leftCol);
