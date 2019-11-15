@@ -33,15 +33,15 @@ $(document).ready(function() {
     //ASSIGN STYLE CLASSES TO HOUR ROWS BASED ON IDS SET ABOVE
 
     for (i = 9; i < 18; i++) {  
-        var idCheck = '#' + i;
+        var timeCheck = '#' + i;
         if (i > currentTimeNum) {
-            $(idCheck).addClass("future");
+            $(timeCheck).addClass("future");
         };
         if (i === currentTimeNum) {
-            $(idCheck).addClass("present");
+            $(timeCheck).addClass("present");
         };
         if (i < currentTimeNum) {
-            $(idCheck).addClass("past"); 
+            $(timeCheck).addClass("past"); 
         };      
     };
 
