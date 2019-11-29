@@ -1,5 +1,7 @@
 # dayplanner
 
+## https://zackmoscow.github.io/dayplanner/
+
 ## INDEX.HTML
 
 - added all necessary style/script links, including bootstrap, moment.js, jquery, fontawesome
